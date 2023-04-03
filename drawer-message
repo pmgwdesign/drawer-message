@@ -1,0 +1,36 @@
+<style>
+  .Drawer__Message--inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 6px 24px;
+  -webkit-box-shadow: inset 0 -1px #f6f6f6;
+          box-shadow: inset 0 -1px #f6f6f6;
+  color: #007600;
+    font-size: 12px;
+}
+
+.Drawer__Message--inner img {
+  margin-right: 8px;
+}
+
+.Drawer.show-message .Drawer__Message {
+  display: block;
+}
+</style>
+
+    <div class="Drawer__Message ATCSuccessMessage">
+      <div class="Drawer__Message--inner">
+        <img height="18" width="18" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAXVBMVEUAAAAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgD+e0AHAAAAHnRSTlMA2fwDNlDlrj3qGd+XiWzz72UpyMLBQSrxLKDkcR4ss60hAAAA6UlEQVQ4y4WTW27DIBBFL8OkBBtD4rzctJ39L7MyQYEYLO4PoHMkXjN4R8/eqEAUlPGzxjaa3UiSQqPjjTJMVj5ip6HkfJUqV878rqQRdUcKJ14ZnPa/yU5u8Rx6kt1MGgDbFgoU78KAds3tDyaOTuMxtvgRf9EYH/DU5MB5BeRhdvjhJ84N1A7/SguE9D+2yWUBvfjzeGlxoSQ8B3xfSp6FEIdfYDUqLks65OmsV6PiomAkGzNvuRh4KoyKk49PnY2Sp6fWTgqj5OmzwDYbW275s2CWU1UwvZLrFW237PuN02+9fvN22/8fuQtNx5vQasoAAAAASUVORK5CYII=" alt="Checkmark">
+        <span><strong>Gute Wahl!</strong> Hier sind Deine Produkte:</span>
+      </div>
+    </div>
