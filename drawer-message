@@ -31,6 +31,6 @@
     <div class="Drawer__Message ATCSuccessMessage">
       <div class="Drawer__Message--inner">
         <img height="18" width="18" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAXVBMVEUAAAAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgAAdgD+e0AHAAAAHnRSTlMA2fwDNlDlrj3qGd+XiWzz72UpyMLBQSrxLKDkcR4ss60hAAAA6UlEQVQ4y4WTW27DIBBFL8OkBBtD4rzctJ39L7MyQYEYLO4PoHMkXjN4R8/eqEAUlPGzxjaa3UiSQqPjjTJMVj5ip6HkfJUqV878rqQRdUcKJ14ZnPa/yU5u8Rx6kt1MGgDbFgoU78KAds3tDyaOTuMxtvgRf9EYH/DU5MB5BeRhdvjhJ84N1A7/SguE9D+2yWUBvfjzeGlxoSQ8B3xfSp6FEIdfYDUqLks65OmsV6PiomAkGzNvuRh4KoyKk49PnY2Sp6fWTgqj5OmzwDYbW275s2CWU1UwvZLrFW237PuN02+9fvN22/8fuQtNx5vQasoAAAAASUVORK5CYII=" alt="Checkmark">
-        <span><strong>Gute Wahl!</strong> Hier sind Deine Produkte:</span>
+        <span><strong>{{ 'customizations.cart-banner.good-choice' | t }}</strong> {{ 'customizations.cart-banner.confirmation' | t }}</span>
       </div>
     </div>
